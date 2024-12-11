@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"  # ya da "yarn build", build komutunu çalıştıracak
   publish = "dist"  # Build çıktı dizini
-  
+  base ="Delta-React-Assessment/client-app"
 [build.environment]
   NODE_VERSION = "18"  # Node.js versiyonunu belirtin
