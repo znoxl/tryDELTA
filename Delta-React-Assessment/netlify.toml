@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # ya da "yarn build", build komutunu çalıştıracak
+  publish = "client-app/dist"  # Build çıktı dizini
